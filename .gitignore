@@ -1,0 +1,9 @@
+cat > .gitignore <<'EOF'
+build/
+node_modules/
+dist/
+*.db
+*.sqlite
+*.log
+.cache/
+EOF
